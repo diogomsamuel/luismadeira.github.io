@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Luis Madeira</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <main>
+        <div class="background-photos"></div> <!-- Remova as imagens aqui -->
+        <div class="container">
+            <div class="card">
+                <img src="luis2.jpg" style="display: flex; width: 300px;" alt="Foto de Luis Madeira">
+                <h1>Luis Madeira</h1>
+                <p style="text-align: justify;">Olá, o meu nome é <strong>Luis Madeira</strong> e sou um care bear do grupo. Adoro comer, adoro ser influencer mas acima de tudo gosto de me queixar aos meus amigos.
+                    Já disse que gosto de comer? Eu não sou gordo, tu é que és! Além disso sou tóxico e chupas do Maia!
+                </p>
+                <p style="text-align:right"> - Luis Madeira, 2024</p>
+            </div>
+        </div>
+        <a id="logo" href="https://www.instagram.com/luismadeiraa/" target="_blank">
+            <i class="bi bi-instagram"></i> @luismadeiraa
+        </a>
+
+        <!-- Botão "Não clique aqui!" -->
+        <button id="dont-click" class="custom-btn">Não cliques aqui!</button>
+    </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById("dont-click").addEventListener("click", function() {
+                alert("Oops, agora o Luis vai reclamar ainda mais!");
+                document.body.style.backgroundColor = "#ff4545";
+            });
+            
+        });
+        console.log("Apanhado a tentar ser um hacker, Luis? 😎");
+    </script>
+</body>
+</html>
